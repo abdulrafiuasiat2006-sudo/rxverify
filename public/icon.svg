@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#020617" />
+    </linearGradient>
+    <linearGradient id="emGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+  </defs>
+  <!-- Background with subtle corner curve -->
+  <rect width="512" height="512" rx="108" fill="url(#bgGrad)" />
+  
+  <!-- Subtle inner border -->
+  <rect x="16" y="16" width="480" height="480" rx="92" fill="none" stroke="#334155" stroke-width="4" stroke-opacity="0.4" />
+  
+  <!-- Medical Shield Badge -->
+  <path d="M 256 68 L 380 114 C 380 230 328 320 256 360 C 184 320 132 230 132 114 Z" fill="#1e293b" stroke="#10b981" stroke-width="8" stroke-linejoin="round" />
+  
+  <!-- Cross in Shield -->
+  <path d="M 256 140 L 256 260 M 196 200 L 316 200" stroke="url(#emGrad)" stroke-width="26" stroke-linecap="round" />
+  
+  <!-- Rx Wordmark -->
+  <text x="256" y="440" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="900" font-size="76" fill="#f8fafc" letter-spacing="4">RxVERIFY</text>
+</svg>

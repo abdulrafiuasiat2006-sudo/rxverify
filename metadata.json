@@ -1,0 +1,6 @@
+{
+  "name": "RxVerify Nigeria — Controlled Substance Verification",
+  "description": "Controlled-drug prescription verification and pharmacy authentication platform to prevent forged or reused prescriptions. Features doctor prescription generation with QR/secure links, pharmacy authentication and dispensing logs, and accredited pharmacy locator.",
+  "requestFramePermissions": ["camera", "geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
